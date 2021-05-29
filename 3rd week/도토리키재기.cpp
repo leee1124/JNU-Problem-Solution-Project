@@ -42,9 +42,9 @@ int main() {
 
 	scanf("%d", &m);//4번째줄 입력, 현재 달
 
-	int answer = getMaximumHeight(height, month, n, m);
+	int answer = getMaximumHeight(height, month, n, m);//생일이 m월인 가장 큰 키의 도토리를 함수를 통해 계산하고 answer 변수에 저장
 
-	printf("%d\n", answer);
+	printf("%d\n", answer);//생일이 m월인 가장 큰 키의 도토리 출력
 	delete[] height;//height 변수의 동적 할당 해제
 	delete[] month;//month 변수의 동적 할당 해제
 	return 0;
