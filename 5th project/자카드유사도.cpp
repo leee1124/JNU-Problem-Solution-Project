@@ -8,9 +8,9 @@ using namespace std;
 
 #define MUL 65536// 곱할 값
 
-map<string, int> fir;//처음 입력받은 문자열을 담을 set 변수
-map<string, int> sec;//두번째로 입력받은 문자열을 담을 set변수
-set<string> substrings;//서브스트링들을 담을 셋변수
+map<string, int> fir;//처음 입력받은 문자열을 담을 map 변수
+map<string, int> sec;//두번째로 입력받은 문자열을 담을 map 변수
+set<string> substrings;//서브스트링들을 담을 set변수
 
 void init(string first, string second) {//맵과 셋을 초기화하는 함수
 	string ss;//문자열들의 2글자를 담을 서브스트링
